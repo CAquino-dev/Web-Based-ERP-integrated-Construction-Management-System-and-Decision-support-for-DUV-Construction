@@ -1,7 +1,9 @@
 import React from 'react'
+import { Footer } from '../components/Footer.jsx'
 
 const Homepage = () => {
   return (
+    <>
     <div className='homepage'>
       <section id='projects' className='mt-[60px] mb-[50px]  bg-[#0E0C0A] text-white px-10 flex'>
         <div className=' w-[50%] pt-30'>
@@ -15,6 +17,9 @@ const Homepage = () => {
         </div>
       </section>
     </div>
+    
+    <Footer/>
+    </>
   )
 }
 

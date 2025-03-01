@@ -1,9 +1,12 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
+import AdminSideNav from '../components/AdminSideNav'
 
 const AdminLayout = () => {
   return (
     <div>
-      layout
+      <AdminSideNav />
+      <Outlet />
     </div>
   )
 }
